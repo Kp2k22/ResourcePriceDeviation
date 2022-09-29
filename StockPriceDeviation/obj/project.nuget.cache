@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "s2KWmSZi2ZL5bz+UervNcOgOm/5+BqKmzoGOBlDNvt10UbAYO5d6KkTo7aPHHhqf5iPN9PWRBxeI/HjNLlMrDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\(^-^)\\source\\repos\\StockPriceDeviation\\StockPriceDeviation\\StockPriceDeviation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\(^-^)\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512",
+    "C:\\Users\\(^-^)\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

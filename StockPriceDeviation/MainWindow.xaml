@@ -1,0 +1,41 @@
+﻿<Window x:Class="StockPriceDeviation.MainWindow" ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockPriceDeviation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800"
+        Background="Gray" BorderThickness="5" BorderBrush="Maroon"
+        Name="windMain"
+        >
+    <Grid >
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition  ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Name="silver" Content="Silver"   Grid.Row="1" FontSize="32" FontWeight="ExtraBold" FontStyle="Italic" Click="xs_Click" ></Button>
+        <Button Name="gold" Content="Gold" Grid.Row="2" FontSize="32" FontWeight="ExtraBold" FontStyle="Italic" Click="xg_Click"></Button>
+        <Button Name="start" Content="Start" Grid.Row="3" Grid.ColumnSpan="2" FontSize="32" FontWeight="Bold" Click="start_Click"></Button>
+        <Label Grid.Column="1" FontSize="32" FontWeight="ExtraBold" Width ="400" Height="50"  VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="5,-5,-10,0" >Time Lapse</Label>
+        <Label Grid.Column="0" FontSize="32" FontWeight="ExtraBold" Width ="400" Height="50"  VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="5,-5,-10,0" >Resource</Label>
+        <GroupBox  Margin="0,10,1,5" Grid.Row="1" Grid.Column="1"  BorderThickness="0" Grid.RowSpan="2">
+            <Grid>
+                <RadioButton x:Name="r1s" Margin="10,42,-12,0" FontSize="18" Content="6h" Height="27" VerticalAlignment="Top"></RadioButton>
+                <RadioButton x:Name="r2s" Margin="10,0,-12,0" FontSize="18" Content="12h" Height="27" VerticalAlignment="Center"></RadioButton>
+                <RadioButton x:Name="r3s" Margin="10,0,-12,37" FontSize="18" Content="24h" Height="27" VerticalAlignment="Bottom"></RadioButton>
+
+            </Grid>
+        </GroupBox>
+
+
+    </Grid>
+</Window>
